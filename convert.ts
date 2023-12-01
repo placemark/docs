@@ -32,7 +32,7 @@ for (let post of blog) {
 const docs = d3.csvParse(Deno.readTextFileSync("./webflow/docs.csv"));
 
 for (let post of docs) {
-  const { Slug, "Post Body": body, ...rest } = post;
+  const { Slug, Body: body, ...rest } = post;
 
   const file = await unified()
     .use(rehypeParse)
