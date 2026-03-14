@@ -3,6 +3,7 @@ import starlight from "@astrojs/starlight";
 
 export default defineConfig({
   site: "https://placemark.github.io",
+  base: "/docs",
   integrations: [
     starlight({
       title: "Placemark",
