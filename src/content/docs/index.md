@@ -6,10 +6,10 @@ hero:
   tagline: Docs, guides, and blog posts for Placemark.
   actions:
     - text: Read the Guides
-      link: /guides/importing/
+      link: /docs/guides/importing/
       icon: right-arrow
     - text: Browse Formats
-      link: /formats/geojson/
+      link: /docs/formats/geojson/
       icon: right-arrow
       variant: minimal
 ---
